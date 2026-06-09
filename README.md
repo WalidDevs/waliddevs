@@ -1,16 +1,45 @@
-## Hi there 👋
+# WalidDevs / README.md
 
-<!--
-**WalidDevs/waliddevs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div align="center">
+  <a href="https://walidelalami.com">
+    <img src="https://img.shields.io/badge/Portfolio-walidelalami.com-002248?style=for-the-badge&logo=google-chrome&logoColor=white" />
+  </a>
+  <a href="https://github.com/WalidDevs">
+    <img src="https://img.shields.io/badge/GitHub-WalidDevs-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/walid-elalami-8195a5214/">
+    <img src="https://img.shields.io/badge/LinkedIn-Walid%20ELALAMI-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+</div>
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```csharp
+namespace AboutMe
+{
+    public class Person
+    {
+        public string Name { get; } = "Walid ELALAMI";
+        public string Aka { get; } = "WalidDevs";
+        public string Location { get; } = "Paris, France";
+
+        public List<string> MainStack { get; } = new()
+        {
+            "C#",
+            ".NET Core",
+            "React",
+            "TypeScript"
+        };
+
+        public List<string> Interests { get; } = new()
+        {
+            "Clean Architecture",
+            "REST APIs",
+            "Software Design",
+            "Full-Stack Development"
+        };
+
+        public string Goal { get; } =
+            "Building clean, scalable and secure web applications.";
+    }
+}
