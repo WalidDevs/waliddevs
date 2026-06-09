@@ -57,9 +57,12 @@ namespace AboutMe
             "Building clean, scalable and secure web applications.";
     }
 }
+```
 
+---
 
 <div align="center">
+
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="48" height="48" alt="C#" />
 &nbsp;
 <img src="https://www.vectorlogo.zone/logos/dotnet/dotnet-official.svg" width="48" height="48" alt=".NET" />
@@ -81,4 +84,5 @@ namespace AboutMe
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="48" height="48" alt="Tailwind CSS" />
 &nbsp;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" width="48" height="48" alt="MSSQL" />
+
 </div>
